@@ -10,6 +10,7 @@ describe("Testing Exercise 5", () => {
     const secondCall = curried();
     expect(secondCall).toStrictEqual(10);
   });
+  
   test("Currying 2", () => {
     const curried = curry(15, callback);
     const secondCall = curried();
