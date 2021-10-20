@@ -13,11 +13,7 @@
  * @param {Function} callback
  */
 function map(array, callback) {
-  let memory = [];
-  for (let element of array){
-    memory.push(callback(element));
-  }
-  return memory
+  //
 }
 
 export default map;

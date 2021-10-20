@@ -5,9 +5,7 @@
  * @param {Function} callback
  */
 function callMeMaybe(callMe, callback) {
-  if (callMe === true) {
-    callback(callMe);
-  }
+  //
 }
 
 export default callMeMaybe;
