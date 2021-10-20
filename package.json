@@ -11,6 +11,7 @@
     "test5": "jest --testPathPattern=tests/5.test.js",
     "test": "jest "
   },
+  
   "author": "",
   "license": "ISC",
   "dependencies": {
